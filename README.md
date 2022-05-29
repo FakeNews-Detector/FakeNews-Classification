@@ -10,7 +10,10 @@ In this project we are going to creat a model for Fake news Classification. So w
 4. NLTK
 5. Scikit-learn
 6. Sastrawi
-7. Tensorflow
+7. Beautiful Soup
+8. Regex
+9. Requests
+10. Tensorflow
 
 
 # Activities
@@ -33,7 +36,8 @@ Data cleaning is the process to clean data such as remove punctuation, lowering 
 2. Stemming
 
 Stemming is the process of reducing a word to its word stem that affixes to suffixes and prefixes or to the roots of words known. We are using [Sastrawi Stemmer](
-https://pypi.org/project/Sastrawi) 
+https://pypi.org/project/Sastrawi) for stemming
+
 
 3. Stopwords removal
 
