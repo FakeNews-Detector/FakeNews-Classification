@@ -1,6 +1,10 @@
 # FakeNews Classification 
 This is ML students repository from C22-PS051 Team doing capstone Bangkit 2022. For MD repository [click here](https://github.com/FakeNews-Detector/FakeNews-App). 
 
+# Disclaimer
+
+In this FakeNews Classification, we trained the model for Classification with outdated news for valid news so we could find some error for detect the news. And then we don't guarantee for this model can detect clickbait news. So if the news title is clickbait, the model just turns out the output hoax/valid.
+
 # Prerequisite
 
 In this project we are going to creat a model for Fake news Classification. So we need to install some libraries as follows:
