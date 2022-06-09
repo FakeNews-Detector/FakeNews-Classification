@@ -47,3 +47,12 @@ Stopwords are actually the most common words in any language (like articles, pre
 
 Tokenizing is the process to break the text into smaller units called tokens. Tokens can be a sentence or word. In this data, we want to tokenize text into word. 
 
+After that we split the data into training data and validation data. For training data, you can look up to data/fake_train.xlsx and real_train.xlsx which is contain 13.422 data. Then for validation data, you can look up to data/fake_testing.xlsx and real_testing.xlsx which is contain 3354 data. Last but not least for testing data, we download it from [kaggle](https://www.kaggle.com/datasets/muhammadghazimuharam/indonesiafalsenews). You can look up to data/Data_latih.csv which is contain 4231 data. 
+
+## Third Week
+After that, we were trying to build model using LSTM and tuning the hyperparameters. In this model, the training accuracy reach 93%, the validation accuracy reach 80% and the testing accuracy reach 74% which is not good enough. You can look up the model we have done in /src/lstm_model.h5 and lstm_weights.h5.
+
+## Fourth Week
+After finishing build a model. We are trying to evaluate and test for model prediction on a new data / text. You can look up for our data testing on /data/Data_uji.csv. We got some error for testing the valid news because we trained outdated news. But it did well on Hoax News. 
+
+
